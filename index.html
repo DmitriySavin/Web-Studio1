@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        /* margin: 0px; */
+      }
+
+      span.web {
+        color: #2196f3;
+        font-family: Raleway;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.78px;
+      }
+
+      span.studio {
+        color: #000;
+        font-family: Raleway;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.78px;
+      }
+
+      div.first_block {
+        min-width: 145px;
+        /* height: 31px;
+        position: absolute;
+        top: 24px;
+        left: 180px;   */
+      }
+
+      .navigation {
+        /*position: absolute;
+         top: 32px;
+        left: 300px; */
+      }
+
+      ol {
+        list-style-type: none;
+      }
+
+      .navigation ol li {
+        display: inline-block;
+      }
+
+      a {
+        text-decoration: none;
+        color: #212121;
+      }
+
+      a.addr_type {
+        /* margin-left: 50px; */
+      }
+
+      a:hover {
+        text-decoration: none;
+        color: #2196f3;
+      }
+
+      a:visited {
+        text-decoration: none;
+      }
+
+      a:active {
+        color: #2196f3;
+        text-decoration: none;
+      }
+
+      .item {
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        /* margin: 0px; */
+      }
+
+      .address {
+        /*position: absolute;
+         right: 100px;
+        top: 32px; */
+      }
+
+      .phone {
+        color: #757575;
+      }
+
+      .google_link_text {
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header style="width: 100%; height: 80px; flex-shrink: 0; background: #fff">
+      <p><span>Web</span>Studio</p>
+
+      <nav class="navigation">
+        <ol class="item">
+          <li class="item">
+            <a href="#" class="addr_type">Студія</a>
+          </li>
+          <li class="item">
+            <a href="#" class="addr_type">Портфоліо</a>
+          </li>
+          <li class="item">
+            <a href="#" class="addr_type">Контакти</a>
+          </li>
+        </ol>
+      </nav>
+
+      <address class="address">
+        <ul>
+          <li>
+            <a href="mailto:info@devstudio.com" class="addr_type"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="phone addr_type"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
+    </header>
+    <main>
+      <section>
+        <h1>Ефективні рішення для вашого бізнесу</h1>
+        <button type="button">Замовити послугу</button>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p>
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
+          </li>
+          <li>
+            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <p>
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
+          </li>
+          <li>
+            <h3>ПЛАНУВАННЯ</h3>
+            <p>
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li>
+            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p>
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Чим ми займаємося</h2>
+        <ol>
+          <li>
+            <img src="images/activity1.jpg" alt="Комп'ютери" width="250px" />
+          </li>
+
+          <li>
+            <img src="images/activity2.jpg" alt="телефоны" width="250px" />
+          </li>
+
+          <li>
+            <img src="images/activity3.jpg" alt="планшеты" width="250px" />
+          </li>
+        </ol>
+      </section>
+      <section>
+        <h2>Наша команда</h2>
+        <ol>
+          <li>
+            <img src="images/ourteam1.jpg" alt="Ігор Дем'яненк" width="250px" />
+            <h3>Ігор Дем'яненко-</h3>
+            <p style="color: #757575">Product Designer</p>
+          </li>
+          <li>
+            <img src="images/ourteam2.jpg" alt="Ольга Рєпіна" width="250px" />
+            <h3>Ольга Рєпіна</h3>
+            <p style="color: #757575">Frontend Developer</p>
+          </li>
+          <li>
+            <img src="images/ourteam3.jpg" alt="Микола Тарасов" width="250px" />
+            <h3>Микола Тарасов</h3>
+            <p style="color: #757575">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="images/ourteam4.jpg"
+              alt="Михайло Єрмаков"
+              width="250px"
+            />
+            <h3>Михайло Єрмаков</h3>
+            <p style="color: #757575">UI Designer</p>
+          </li>
+        </ol>
+      </section>
+    </main>
+    <footer style="background-color: #2f303a">
+      <p style="color: white"><span>Web</span>Studio</p>
+      <address>
+        <a
+          href="https://maps.app.goo.gl/DohMvhbXPSFxDUW5A"
+          target="_blank"
+          class="google_link_text"
+        >
+          м. Київ, пр-т Лесі Українки, 26</a
+        >
+        <ol style="padding: 55px">
+          <li>
+            <a href="mailto:info@devstudio.com" class="phone"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="phone">+38 096 111 11 11</a>
+          </li>
+        </ol>
+      </address>
+    </footer>
+  </body>
+</html>
