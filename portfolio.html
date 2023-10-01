@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        /* margin: 0px; */
+      }
+
+      span.web {
+        color: #2196f3;
+        font-family: Raleway;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.78px;
+      }
+
+      span.studio {
+        color: #000;
+        font-family: Raleway;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.78px;
+      }
+
+      div.first_block {
+        min-width: 145px;
+        /* height: 31px;
+            position: absolute;
+            top: 24px;
+            left: 180px;   */
+      }
+
+      .navigation {
+        /*position: absolute;
+             top: 32px;
+            left: 300px; */
+      }
+
+      ol {
+        list-style-type: none;
+      }
+
+      .navigation ol li {
+        display: inline-block;
+      }
+
+      a {
+        text-decoration: none;
+        color: #212121;
+      }
+
+      a.addr_type {
+        /* margin-left: 50px; */
+      }
+
+      a:hover {
+        text-decoration: none;
+        color: #2196f3;
+      }
+
+      a:visited {
+        text-decoration: none;
+      }
+
+      a:active {
+        color: #2196f3;
+        text-decoration: none;
+      }
+
+      .item {
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        /* margin: 0px; */
+      }
+
+      .address {
+        /*position: absolute;
+             right: 100px;
+            top: 32px; */
+      }
+
+      .phone {
+        color: #757575;
+      }
+
+      .google_link_text {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header style="width: 100%; height: 80px; flex-shrink: 0; background: #fff">
+      <p><span>Web</span>Studio</p>
+
+      <nav class="navigation">
+        <ol class="item">
+          <li class="item">
+            <a href="#" class="addr_type">Студія</a>
+          </li>
+          <li class="item">
+            <a href="#" class="addr_type">Портфоліо</a>
+          </li>
+          <li class="item">
+            <a href="#" class="addr_type">Контакти</a>
+          </li>
+        </ol>
+      </nav>
+
+      <address class="address">
+        <ul>
+          <li>
+            <a href="mailto:info@devstudio.com" class="addr_type"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="phone addr_type"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
+    </header>
+    <main>
+      <section>
+        <nav class="navigation" style="text-align: center">
+          <ol>
+            <li>
+              <button type="button">Усі</button>
+            </li>
+            <li>
+              <button type="button">Веб-сайти</button>
+            </li>
+            <li>
+              <button type="button">Додатки</button>
+            </li>
+            <li>
+              <button type="button">Дизайн</button>
+            </li>
+            <li>
+              <button type="button">Маркетинг</button>
+            </li>
+          </ol>
+        </nav>
+        <!-- <nav class="navigation"> -->
+        <ol>
+          <li>
+            <img src="images/Проєкти9.jpg" alt="Технокряк" width="250" />
+            <h2>Технокряк</h2>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              src="images/Проєкти1.jpg"
+              alt="Постер New Orlean vs Golden Star"
+              width="250"
+            />
+            <h2>Постер New Orlean vs Golden Star</h2>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <img
+              src="images/Проєкти2.jpg"
+              alt="Ресторан Seafood"
+              width="250"
+            />
+            <h2>Ресторан Seafood</h2>
+            <p>Додаток</p>
+          </li>
+          <li>
+            <img src="images/Проєкти3.jpg" alt="Проєкт Prime" width="250" />
+            <h2>Проєкт Prime</h2>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <img src="images/Проєкти4.jpg" alt="Проєкт Boxes" width="250" />
+            <h2>Проєкт Boxes</h2>
+            <p>Додаток</p>
+          </li>
+          <li>
+            <img
+              src="images/Проєкти5.jpg"
+              alt="Inspiration has no Borders"
+              width="250"
+            />
+            <h2>Inspiration has no Borders</h2>
+            <p>Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              src="images/Проєкти6.jpg"
+              alt="Видання Limited Edition"
+              width="250"
+            />
+            <h2>Видання Limited Edition</h2>
+            <p>Дизайн</p>
+          </li>
+          <li>
+            <img src="images/Проєкти7.jpg" alt="Проєкт LAB" width="250" />
+            <h2>Проєкт LAB</h2>
+            <p>Маркетинг</p>
+          </li>
+          <li>
+            <img
+              src="images/Проєкти8.jpg"
+              alt="Growing Business"
+              width="250"
+            />
+            <h2>Growing Business</h2>
+            <p>Додаток</p>
+          </li>
+        </ol>
+        <!-- </nav> -->
+      </section>
+    </main>
+    <footer style="background-color: #2f303a">
+      <p style="color: white"><span>Web</span>Studio</p>
+      <address>
+        <a
+          href="https://maps.app.goo.gl/DohMvhbXPSFxDUW5A"
+          target="_blank"
+          class="google_link_text"
+        >
+          м. Київ, пр-т Лесі Українки, 26</a
+        >
+        <ol style="padding: 55px">
+          <li>
+            <a href="mailto:info@devstudio.com" class="phone"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="phone">+38 096 111 11 11</a>
+          </li>
+        </ol>
+      </address>
+    </footer>
+  </body>
+</html>
