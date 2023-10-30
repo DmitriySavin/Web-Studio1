@@ -9,7 +9,6 @@ body {
   font-family: 'Roboto';
 }
 .navigation-link {
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
@@ -59,12 +58,12 @@ a:active {
     font-size: 26px;
     letter-spacing: 0.78px;
 }
-.address-header-item {
-  color: var(--add-color);
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.28px;
+.address-header-link {
+color: var(--add-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.28px;
 }
 .hero-section-title {
     text-align: center;
@@ -75,6 +74,18 @@ a:active {
     /* 136.364% */
     letter-spacing: 2.64px;
     text-transform: uppercase;
+}
+.hero-section-button {
+  color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.96px;
+    border-radius: 4px;
+      background: #2196F3;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .opportunities-list-title {
   width: 270px;
@@ -106,6 +117,7 @@ a:active {
     letter-spacing: 1.08px;
 }
 .team-name {
+  color: var(--main-color);
 font-size: 16px;
 letter-spacing: 0.48px;
 }
@@ -113,6 +125,12 @@ letter-spacing: 0.48px;
   color: var(--add-color);
     font-size: 16px;
     letter-spacing: 0.48px;
+}
+.logo {
+  color: var(--main-color);
+    font-family: Raleway;
+    font-size: 26px;
+    letter-spacing: 0.78px;
 }
 .logo-footer-title {
   color: #FFF;
@@ -128,8 +146,9 @@ letter-spacing: 0.48px;
       /* 171.429% */
       letter-spacing: 0.42px;
 }
-.footer-item {
-  color: var(--add-color);
+.phone {
+  color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     line-height: 24px;
