@@ -66,11 +66,12 @@ color: var(--add-color);
   letter-spacing: 0.28px;
 }
 .hero-section-title {
+  /* color: var(--white); */
     text-align: center;
     font-family: Roboto;
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 1.36;
     /* 136.364% */
     letter-spacing: 2.64px;
     text-transform: uppercase;
@@ -80,7 +81,7 @@ color: var(--add-color);
     font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 1.87;
     /* 187.5% */
     letter-spacing: 0.96px;
     border-radius: 4px;
@@ -101,7 +102,7 @@ color: var(--add-color);
     color: var(--add-color);
       font-family: Roboto;
       font-size: 14px;
-      line-height: 24px;
+      line-height: 1.71;
       /* 171.429% */
       letter-spacing: 0.42px;
 }
@@ -151,7 +152,7 @@ letter-spacing: 0.48px;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
-    line-height: 24px;
+    line-height: 1.71;
     /* 171.429% */
     letter-spacing: 0.42px;
 }
