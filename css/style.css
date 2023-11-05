@@ -72,6 +72,30 @@ a:active {
   background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+.filters-button {
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 26px;
+  /* 162.5% */
+  letter-spacing: 0.48px;
+}
+.projects-title {
+color: var(--main-color);
+  font-size: 18px;
+  line-height: 36px;
+  /* 200% */
+  letter-spacing: 1.08px;
+}
+.projects-text {
+  color: var(--add-color);
+    font-size: 16px;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.48px;
+}
+ul {
+  list-style-type: none;
+}
 ol {
   list-style-type: none;
 }
@@ -114,7 +138,9 @@ ol {
   font-size: 16px;
   letter-spacing: 0.48px;
 }
-
+.logo-logo-footer {
+  background-color: var(--main-bg-color);
+}
 .logo-footer-title {
   color: #fff;
   font-family: Raleway;
