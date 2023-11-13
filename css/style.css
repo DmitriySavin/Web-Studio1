@@ -10,13 +10,13 @@ body {
   --white: #fff;
 }
 .container {
-  width: 1000px;
+  width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
 .header {
-  padding-top: 0px;
-  padding-bottom: 200px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo {
   color: var(--main-color);
@@ -60,7 +60,8 @@ a:active {
   letter-spacing: 0.28px;
 }
 .hero-section {
-  padding-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 210px;
 }
 .hero-section-title {
   /* color: var(--white); */
@@ -84,7 +85,8 @@ a:active {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .opportunities {
-  padding-bottom: 118px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 ul {
   list-style-type: none;
@@ -109,7 +111,8 @@ ol {
   letter-spacing: 0.42px;
 }
 .employment {
-  padding-bottom: 188px;
+ padding-top: 94px;
+ padding-bottom: 94px;
 }
 .employment-title {
   text-align: center;
@@ -118,6 +121,7 @@ ol {
   letter-spacing: 1.08px;
 }
 .team {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .team-title {
@@ -158,6 +162,8 @@ font-family: Roboto;
 }
 .logo-logo-footer {
   background-color: var(--main-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer-title {
   color: #fff;
