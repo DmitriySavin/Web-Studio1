@@ -14,10 +14,23 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+/* правила для усіх списків */
+ul {
+  list-style: none;
+}
+ol {
+  list-style-type: none;
+}
+/* Хедер */
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
 }
+.flex-header {
+  display: flex;
+justify-content: center;
+}
+/* Логотип вебстудио */
 .logo {
   color: var(--main-color);
   font-family: Raleway;
@@ -29,6 +42,14 @@ body {
   font-family: Raleway;
   font-size: 26px;
   letter-spacing: 0.78px;
+}
+/* почта и эмейл */
+.flex-header-address {
+  display: flex;
+  margin: 32px;
+}
+.address-header-list + .address-header-list {
+  margin-right: 50px;
 }
  .navigation ol li {
    display: inline-block;
@@ -51,6 +72,13 @@ a:active {
   font-weight: 500;
   letter-spacing: 0.28px;
 }
+.flex-navigation-list {
+  display: flex;
+  margin: 32px;
+}
+.navigation-link + .navigation-link {
+  margin-left: 50px;
+}
 
 .address-header-link {
   color: var(--add-color);
@@ -59,12 +87,19 @@ a:active {
   font-weight: 500;
   letter-spacing: 0.28px;
 }
+/* эфективні рішення та кнопка */
 .hero-section {
   padding-top: 200px;
   padding-bottom: 210px;
+  background-color: var(--main-bg-color)
+}
+.flex-hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .hero-section-title {
-  /* color: var(--white); */
+  color: var(--white);
   text-align: center;
   font-family: Roboto;
   font-size: 44px;
@@ -84,15 +119,21 @@ a:active {
   background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+/* увага до деталей */
 .opportunities {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-ul {
-  list-style-type: none;
+.flex-opportunities {
+  display: flex;
+  justify-content: center;
 }
-ol {
-  list-style-type: none;
+
+.flex-opportunities-list {
+  display: flex;
+}
+.opportunities-item + .opportunities-item {
+  margin-left: 30px;
 }
 .opportunities-list-title {
   width: 270px;
@@ -110,6 +151,7 @@ ol {
   line-height: 1.71;
   letter-spacing: 0.42px;
 }
+/* чим ми займаємось */
 .employment {
  padding-top: 94px;
  padding-bottom: 94px;
@@ -120,6 +162,14 @@ ol {
   font-size: 36px;
   letter-spacing: 1.08px;
 }
+.flex-box {
+  display: flex;
+  justify-content: center;
+}
+.employment-item + .employment-item {
+  margin-left: 30px;
+}
+/* наша команда */
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -139,6 +189,9 @@ ol {
   font-size: 16px;
   letter-spacing: 0.48px;
 }
+.team-item + .team-item {
+  margin-left: 30px;
+}
 .filters-button {
   color: var(--main-color);
   font-size: 16px;
@@ -146,7 +199,7 @@ font-family: Roboto;
   line-height: 1.62;
   letter-spacing: 0.48px;
 }
-
+/* наши проекти */
 .projects-title {
   color: var(--main-color);
   font-size: 18px;
@@ -160,6 +213,7 @@ font-family: Roboto;
   line-height: 1.87;
   letter-spacing: 0.48px;
 }
+/* футер */
 .logo-logo-footer {
   background-color: var(--main-bg-color);
   padding-top: 60px;
