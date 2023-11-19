@@ -20,15 +20,17 @@ ul {
 }
 ol {
   list-style-type: none;
+  
 }
 /* Хедер */
-/* .header {
-  padding-top: 24px;
+.header {
+   padding-top: 24px;
   padding-bottom: 25px;
-} */
+  /* padding: 24px 0px 25px; */
+}
 .flex-header {
   display: flex;
-justify-content: center;
+align-items: center;
 }
 /* Логотип вебстудио */
 .logo {
@@ -36,6 +38,7 @@ justify-content: center;
   font-family: Raleway;
   font-size: 26px;
   letter-spacing: 0.78px;
+  display: flex;
 }
 .accent-logo {
   color: var(--accent-color);
@@ -46,7 +49,6 @@ justify-content: center;
 /* почта и эмейл */
 .flex-header-address {
   display: flex;
-  margin: 32px;
 }
 .address-header-list + .address-header-list {
   margin-right: 50px;
@@ -74,9 +76,11 @@ a:active {
 }
 .flex-navigation-list {
   display: flex;
-  /* margin: 32px; */
+  /* padding-left: 93px; */
+  margin: 0px 0px 0px 93px;
+
 }
-.navigation-link + .navigation-link {
+.navigation-item + .navigation-item {
   margin-left: 50px;
 }
 
@@ -86,6 +90,9 @@ a:active {
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.28px;
+}
+.address-header-item + .address-header-item {
+  margin-left: 50px;
 }
 /* эфективні рішення та кнопка */
 .hero-section {
@@ -153,8 +160,8 @@ a:active {
 }
 /* чим ми займаємось */
 .employment {
- padding-top: 94px;
- padding-bottom: 94px;
+ margin-top: 94px;
+ margin-bottom: 94px;
 }
 .employment-title {
   text-align: center;
