@@ -22,10 +22,10 @@ ol {
   list-style-type: none;
 }
 /* Хедер */
-.header {
+/* .header {
   padding-top: 24px;
   padding-bottom: 25px;
-}
+} */
 .flex-header {
   display: flex;
 justify-content: center;
@@ -74,7 +74,7 @@ a:active {
 }
 .flex-navigation-list {
   display: flex;
-  margin: 32px;
+  /* margin: 32px; */
 }
 .navigation-link + .navigation-link {
   margin-left: 50px;
