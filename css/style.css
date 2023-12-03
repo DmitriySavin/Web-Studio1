@@ -212,6 +212,15 @@ padding-bottom: 94px;
   margin-left: 30px;
 }
 /* Там уже портволио идет */
+.flex-header-portfolio {
+  display: flex;
+    align-items: center;
+    padding-bottom: 94px;
+    /* border: 1px;
+    border-color:  #ECECEC;
+    border-style: hidden; */
+    
+}
 .filters-button {
   color: var(--main-color);
   font-size: 16px;
@@ -251,6 +260,7 @@ font-family: Roboto;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding-bottom: 94px;
 }
 /* .projects-img { 
   display: flex;
