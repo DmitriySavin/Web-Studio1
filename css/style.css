@@ -259,7 +259,6 @@ font-family: Roboto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   padding-bottom: 94px;
 }
 /* .projects-img { 
@@ -272,8 +271,8 @@ font-family: Roboto;
  
 }
 .projects-item + .projects-item {
-padding-left: 30px;
- padding-bottom: 30px;
+/* padding-left: 30px;*/
+ padding-bottom: 30px; 
 }
 /* футер */
 .logo-logo-footer {
