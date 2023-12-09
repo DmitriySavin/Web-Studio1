@@ -60,6 +60,9 @@ align-items: center;
 .flex-header-address {
   display: flex;
 }
+.address-header-list {
+padding-left: 344px;
+}
 .address-header-list + .address-header-list {
   margin-right: 50px;
 }
@@ -84,11 +87,12 @@ a:active {
   font-weight: 500;
   letter-spacing: 0.28px;
 }
+.navigation-list {
+  padding-left: 93px;
+}
 .flex-navigation-list {
   display: flex;
   /* padding-left: 93px; */
-
-
 }
 .navigation-item + .navigation-item {
   margin-left: 50px;
@@ -285,6 +289,7 @@ font-family: Roboto;
 .flex-project-list {
   display: flex;
   flex-wrap: wrap;
+  /* flex-basis: calc(100% / 4 20px) ; */
   justify-content: center;
   padding-bottom: 94px;
 }
