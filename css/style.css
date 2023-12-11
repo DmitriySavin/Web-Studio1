@@ -8,7 +8,7 @@ body {
   --add-color: #757575;
   --main-bg-color: #2f303a;
   --white: #fff;
-  --team-color: #F5F4FA;
+  --team-color: #f5f4fa;
 }
 h1,
 h2,
@@ -34,13 +34,13 @@ ul {
 }
 /* Хедер */
 .header {
-   padding-top: 24px;
+  padding-top: 24px;
   padding-bottom: 25px;
   /* padding: 24px 0px 25px; */
 }
 .flex-header {
   display: flex;
-align-items: center;
+  align-items: center;
 }
 /* Логотип вебстудио */
 .logo {
@@ -61,14 +61,14 @@ align-items: center;
   display: flex;
 }
 .address-header-list {
-padding-left: 344px;
+  padding-left: 344px;
 }
 .address-header-list + .address-header-list {
   margin-right: 50px;
 }
- .navigation ol li {
-   display: inline-block;
- }
+.navigation ol li {
+  display: inline-block;
+}
 a {
   text-decoration: none;
   color: #212121;
@@ -155,15 +155,37 @@ a:active {
 }
 .flex-opportunities {
   display: flex;
-  justify-content: center;
+  /* margin: 0 auto; */
 }
-
 .flex-opportunities-list {
   display: flex;
+}
+.opportunities-item {
+  padding-top: 30px;
 }
 .opportunities-item + .opportunities-item {
   margin-left: 30px;
 }
+.opportunities-image-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+margin-left: 0 auto;
+}
+.opportunities-image-item {
+    background-image: url(../images/antenna\ 1.jpg);
+      background-size: 70px;
+      /* background-repeat: no-repeat; */
+      background-position: center;
+}
+.opportunities-image-item + .opportunities-image-item {
+  padding-left: 30px;
+}
+/* .opportunities-image-item::before {
+ 
+} */
 .opportunities-list-title {
   width: 270px;
   color: var(--main-color);
@@ -180,8 +202,8 @@ a:active {
 }
 /* чим ми займаємось */
 .employment {
-padding-top: 94px;
-padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .employment-title {
   text-align: center;
@@ -200,7 +222,6 @@ padding-bottom: 94px;
   align-items: center;
   margin-left: 0 auto;
   margin-right: 0 auto;
-
 }
 .employment-item + .employment-item {
   margin-left: 30px;
@@ -213,7 +234,7 @@ padding-bottom: 94px;
 }
 .team-card {
   /* padding-left: 63px;*/
-  padding-top: 30px; 
+  padding-top: 30px;
   text-align: center;
 }
 /* .flex-team {
@@ -245,17 +266,16 @@ padding-bottom: 94px;
 /* Там уже портволио идет */
 .flex-header-portfolio {
   display: flex;
-    align-items: center;
-    padding-bottom: 94px;
-    /* border: 1px;
+  align-items: center;
+  padding-bottom: 94px;
+  /* border: 1px;
     border-color:  #ECECEC;
     border-style: hidden; */
-    
 }
 .filters-button {
   color: var(--main-color);
   font-size: 16px;
-font-family: Roboto;
+  font-family: Roboto;
   line-height: 1.62;
   letter-spacing: 0.48px;
   margin-bottom: 50px;
@@ -276,7 +296,7 @@ font-family: Roboto;
 .projects-title {
   color: var(--main-color);
   font-size: 18px;
-  line-height: 2.00;
+  line-height: 2;
   letter-spacing: 1.08px;
 }
 
@@ -300,11 +320,10 @@ font-family: Roboto;
 } */
 .projects-item {
   width: 340px;
- 
 }
 .projects-item + .projects-item {
-/* padding-left: 30px;*/
- padding-bottom: 30px; 
+  /* padding-left: 30px;*/
+  padding-bottom: 30px;
 }
 /* футер */
 .logo-logo-footer {
@@ -317,7 +336,6 @@ font-family: Roboto;
   font-family: Raleway;
   font-size: 26px;
   letter-spacing: 0.78px;
-
 }
 .google_link_text {
   color: var(--white);
