@@ -272,9 +272,10 @@ margin-left: 0 auto;
   display: flex;
   align-items: center;
   padding-bottom: 94px;
-  /* border: 1px;
+  border-bottom: 1px;
     border-color:  #ECECEC;
-    border-style: hidden; */
+    border-style: solid;
+    width: 1600px;
 }
 .filters-button {
   color: var(--main-color);
@@ -283,6 +284,9 @@ margin-left: 0 auto;
   line-height: 1.62;
   letter-spacing: 0.48px;
   margin-bottom: 50px;
+  width: 73px,125px,112px,103px,130px;
+  height: 38px;
+  text-align: center;
 }
 .filters-item + .filters-item {
   padding-left: 8px;
@@ -295,6 +299,7 @@ margin-left: 0 auto;
 .flex-filter-list {
   display: flex;
   justify-content: center;
+  
 }
 /* наши проекти */
 .projects-title {
@@ -316,6 +321,12 @@ margin-left: 0 auto;
   /* flex-basis: calc(100% / 4 20px) ; */
   justify-content: center;
   padding-bottom: 94px;
+ 
+}
+.project-list-card {
+  padding-top: 20px;
+  padding-left: 24px;
+  
 }
 /* .projects-img { 
   display: flex;
@@ -324,6 +335,7 @@ margin-left: 0 auto;
 } */
 .projects-item {
   width: 340px;
+  /* flex-basis: calc(100% / 3 - 30px) */
 }
 .projects-item + .projects-item {
   /* padding-left: 30px;*/
