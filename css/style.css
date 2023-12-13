@@ -18,7 +18,9 @@ h5,
 h6,
 ul,
 button,
-p {
+p,
+li,
+a {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -174,7 +176,9 @@ a:active {
   height: 120px;
 margin-left: 0 auto;
 }
-.opportunities-image-item {
+.opportunities-image-item::before {
+  display: block;
+  content: "";
     background-image: url(../images/antenna\ 1.jpg);
       background-size: 70px;
       /* background-repeat: no-repeat; */
@@ -326,6 +330,7 @@ margin-left: 0 auto;
   padding-bottom: 30px;
 }
 /* футер */
+
 .logo-logo-footer {
   background-color: var(--main-bg-color);
   padding-top: 60px;
@@ -351,3 +356,4 @@ margin-left: 0 auto;
   line-height: 1.71;
   letter-spacing: 0.42px;
 }
+
