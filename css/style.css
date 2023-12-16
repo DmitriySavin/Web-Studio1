@@ -365,6 +365,7 @@ margin-left: 0 auto;
   font-family: Raleway;
   font-size: 26px;
   letter-spacing: 0.78px;
+display: block;
   margin-bottom: 20px;
 }
 .google_link_text {
