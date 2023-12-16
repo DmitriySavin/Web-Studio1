@@ -24,6 +24,10 @@ a {
   margin-top: 0;
   margin-bottom: 0;
 }
+img {
+  display: block;
+  width: 100%;
+}
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -176,26 +180,31 @@ a:active {
   height: 120px;
 margin-left: 0 auto;
 }
-.opportunities-image-item::before {
+/* .opportunities-image-item::before {
   display: block;
   content: "";
     background-image: url(../images/antenna\ 1.jpg);
       background-size: 70px;
-      /* background-repeat: no-repeat; */
+      background-repeat: no-repeat;
       background-position: center;
-}
+} */
 .opportunities-image-item + .opportunities-image-item {
   padding-left: 30px;
 }
-/* .opportunities-image-item::before {
- 
-} */
 .opportunities-list-title {
   width: 270px;
   color: var(--main-color);
   font-size: 14px;
   letter-spacing: 0.42px;
 }
+/* .opportunities-list-title::before {
+  display: block;
+  content: '';
+  background-image: url(../images/opportunities-bg-color.jpg);
+  background-size: 270px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+} */
 .opportunities-info {
   width: 270px;
   height: 72px;
@@ -272,34 +281,30 @@ margin-left: 0 auto;
   display: flex;
   align-items: center;
   padding-bottom: 94px;
-  border-bottom: 1px;
-    border-color:  #ECECEC;
-    border-style: solid;
-    width: 1600px;
+   
 }
 .filters-button {
   color: var(--main-color);
   font-size: 16px;
-  font-family: Roboto;
   line-height: 1.62;
   letter-spacing: 0.48px;
-  margin-bottom: 50px;
   width: 73px,125px,112px,103px,130px;
   height: 38px;
   text-align: center;
+  padding: 6px 22px;
+  border: none;
 }
 .filters-item + .filters-item {
-  padding-left: 8px;
+  margin-left: 8px;
 }
 .filters-button:hover {
   background-color: var(--accent-color);
-  border: none;
   color: var(--white);
 }
 .flex-filter-list {
   display: flex;
   justify-content: center;
-  
+  margin-bottom: 50px;
 }
 /* наши проекти */
 .projects-title {
@@ -318,6 +323,7 @@ margin-left: 0 auto;
 .flex-project-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
   /* flex-basis: calc(100% / 4 20px) ; */
   justify-content: center;
   padding-bottom: 94px;
@@ -348,11 +354,18 @@ margin-left: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-item {
+  margin-top: 9px;
+}
+.footer-item + .footer-item {
+  margin-top: 9px;
+}
 .logo-footer-title {
   color: #fff;
   font-family: Raleway;
   font-size: 26px;
   letter-spacing: 0.78px;
+  margin-bottom: 20px;
 }
 .google_link_text {
   color: var(--white);
@@ -360,6 +373,7 @@ margin-left: 0 auto;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.42px;
+  margin-bottom: 9px;
 }
 .phone {
   color: rgba(255, 255, 255, 0.6);
