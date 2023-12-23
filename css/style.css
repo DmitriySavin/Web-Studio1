@@ -181,14 +181,50 @@ a:active {
   height: 120px;
 margin-left: 0 auto;
 }
-/* .opportunities-image-item::before {
+.opportunities-item {
+  margin-left: 30px;
+}
+.antenna::before {
+  content: " ";
   display: block;
-  content: "";
-    background-image: url(../images/antenna\ 1.jpg);
-      background-size: 70px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/antenna\ 1.jpg) , url(../images/opportunities-bg-color.jpg);
+    background-size: 70px, 270px 120px; 
       background-repeat: no-repeat;
       background-position: center;
-} */
+      padding-bottom: 120px;
+}
+.clock::before {
+  content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/clock\ 2.jpg),url(../images/opportunities-bg-color.jpg);
+    background-size: 70px,270px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.diagramm::before {
+  content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/diagram\ 3.jpg),url(../images/opportunities-bg-color.jpg);
+    background-size: 70px,270px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.astronaut::before {
+  content: " ";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/astronaut\ 4.jpg),url(../images/opportunities-bg-color.jpg);
+    background-size: 70px,270px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .opportunities-image-item + .opportunities-image-item {
   padding-left: 30px;
 }
@@ -342,8 +378,7 @@ margin-left: 0 auto;
   align-items: center;
 } */
 .projects-item {
-  width: 340px;
-  /* flex-basis: calc(100% / 3 - 30px) */
+  flex-basis: calc(100% / 3 - 30px)
 }
 .projects-item + .projects-item {
   /* padding-left: 30px;*/
