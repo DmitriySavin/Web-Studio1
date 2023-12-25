@@ -286,6 +286,7 @@ margin-left: 0 auto;
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--team-color);
+  gap: 30px;
 }
 .team-card {
   /* padding-left: 63px;*/
@@ -316,6 +317,9 @@ margin-left: 0 auto;
   font-size: 16px;
   letter-spacing: 0.48px;
   padding-bottom: 30px;
+}
+.team-item {
+  flex-basis: calc((100% - 60px) / 4);
 }
 .team-item + .team-item {
   margin-left: 30px;
