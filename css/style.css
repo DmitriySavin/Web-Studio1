@@ -171,13 +171,14 @@ a:active {
 }
 .flex-opportunities-list {
   display: flex;
+  column-gap: 30px;
 }
 .opportunities-item {
-  padding-top: 30px;
+ flex-basis: calc((100% - 30px) / 4);
 }
-.opportunities-item + .opportunities-item {
+/* .opportunities-item + .opportunities-item {
   margin-left: 30px;
-}
+} */
 .opportunities-image-list {
   display: flex;
   justify-content: space-between;
@@ -185,9 +186,6 @@ a:active {
   width: 270px;
   height: 120px;
 margin-left: 0 auto;
-}
-.opportunities-item {
-  margin-left: 30px;
 }
 .antenna::before {
   content: " ";
