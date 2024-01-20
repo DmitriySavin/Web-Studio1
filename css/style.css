@@ -119,6 +119,8 @@ a:active {
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: url(../images/bg-hero-section.png);
+      max-width: 1600px;
+        margin: 0 auto;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -407,6 +409,8 @@ margin-left: 0 auto;
   background-color: var(--main-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
+      max-width: 1600px;
+        margin: 0 auto;
 }
 .footer-item {
   margin-top: 9px;
