@@ -9,6 +9,7 @@ body {
   --main-bg-color: #2f303a;
   --white: #fff;
   --team-color: #f5f4fa;
+  --svg-color: #AFB1B8;
 }
 h1,
 h2,
@@ -280,8 +281,7 @@ margin-left: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+      justify-content: center;
 }
 .employment-item + .employment-item {
   margin-left: 30px;
@@ -294,22 +294,14 @@ margin-left: 0 auto;
   gap: 30px;
 }
 .team-card {
-  /* padding-left: 63px;*/
   padding-top: 30px;
   text-align: center;
-  background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
     background: #FFF;
   
     /* material shadow v1 */
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
-/* .flex-team {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-} */
 .team-title {
   text-align: center;
   font-size: 36px;
@@ -334,8 +326,54 @@ margin-left: 0 auto;
 .team-item + .team-item {
   margin-left: 30px;
 }
+.svg-card {
+  display: flex;
+  width: 206px;
+    /* height: 44px; */
+  margin-left: 44px;
+  margin-right: 44px;
+  justify-content: space-between;
+  
+}
 .icon-item {
-  fill: var(--white);
+  fill: #AFB1B8; 
+  display: flex;
+  height: 20px;
+  margin-bottom: 30px;
+}
+.customers-section {
+  width: 1170px;
+    height: 184px;
+    margin: 0 auto;
+}
+.customers-name {
+  font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.customers-list {
+  display: flex;
+  gap: 30px;
+}
+.customers-item {
+  border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    flex-basis: calc((100% - 150px) / 6);
+}
+.customers-icon{
+margin-left: 64px;
+margin-right: 64px;
+margin-top: 23px;
+margin-bottom: 23px;
+fill: #AFB1B8;
+}
+.ya-co {
+  width: 41px;
+    height: 46px;
 }
 /* Там уже портволио идет */
 .flex-header-portfolio {
@@ -385,7 +423,6 @@ margin-left: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  /* flex-basis: calc(100% / 4 20px) ; */
   padding-bottom: 94px;
 }
 .project-list-card {
@@ -397,10 +434,6 @@ margin-left: 0 auto;
 }
 .projects-item {
   flex-basis: calc((100% - 60px) / 3);
-  /* border: 0.5px;
-    border-color: grey;
-    border-style: solid; */
-    
 }
 .projects-item + .projects-item {
   padding-bottom: 30px;
