@@ -334,6 +334,9 @@ margin-left: 0 auto;
 .team-item + .team-item {
   margin-left: 30px;
 }
+.icon-item {
+  fill: var(--white);
+}
 /* Там уже портволио идет */
 .flex-header-portfolio {
   display: flex;
