@@ -332,17 +332,17 @@ margin-left: 0 auto;
 .svg-card {
   display: flex;
   width: 206px;
-    /* height: 44px; */
   margin-left: 44px;
   margin-right: 44px;
-  justify-content: space-between;
+}
+.team-svg-list {
+  display: flex;
 }
 .icon-item {
   fill: #AFB1B8; 
-  display: flex;
   height: 20px;
   margin-bottom: 30px;
-  border-radius: 50% ;
+  border-radius: 50%;
 }
 .icon-item:hover {
   fill: var(--white);
@@ -509,5 +509,35 @@ display: block;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.42px;
+}
+.our-contacts {
+  width: 206px;
+    height: 80px;
+    margin-left: 516px;
+    
+
+    /* display: flex;
+    justify-content: space-between; */
+}
+.contacts-desc {
+  font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.contacts-list {
+  display: flex;
+  gap: 12px;
+  padding-top: 20px;
+}
+.contacts-link {
+}
+.contacts-svg {
+  width: 44px;
+    height: 44px;
+    fill: var(--white);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
