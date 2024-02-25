@@ -347,31 +347,33 @@ margin-left: 0 auto;
 }
 .icon-list {
   display: flex;
-  
 }
-/* .svg-card {
-  display: flex;
-  width: 206px;
-  margin-left: 44px;
-  margin-right: 44px;
-  padding-bottom: 30px;
-} */
 .team-svg-list {
   display: flex;
-  margin: 0 auto;
   width: 206px;
-    margin-left: 44px;
-    margin-right: 44px;
     padding-bottom: 30px;
+    justify-content: space-around;
+      margin: 0 auto;
 }
 .icon-item {
   fill: #AFB1B8; 
   height: 20px;
+      width: 20px;
 }
-/* .icon-item:hover {
+.icon-item:hover {
   fill: var(--white);
+}
+.link-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: block;
+  padding: 12px;
+}
+.link-icon:hover {
   background-color: var(--accent-color);
-} */
+  /* padding: 12px; */
+}
 .customers-section {
   width: 1170px;
     height: 184px;
@@ -505,11 +507,20 @@ width: 40px;
       max-width: 1600px;
         margin: 0 auto;
 }
+.footer-position {
+  display: flex;
+}
+.footer-socials{
+  padding-left: 215px;
+}
 .footer-item {
   margin-top: 9px;
 }
 .footer-item + .footer-item {
   margin-top: 9px;
+}
+.footer-addr {
+  min-width: 231px;
 }
 .logo-footer-title {
   color: #fff;
@@ -536,12 +547,9 @@ display: block;
 }
 .our-contacts {
   width: 206px;
-    height: 80px;
-    margin-left: 516px;
-    
-
-    /* display: flex;
-    justify-content: space-between; */
+    padding-left: 70px;
+    padding-right: 70px;
+        margin-right: 878px;
 }
 .contacts-desc {
   font-family: var(--font-family);
@@ -557,11 +565,22 @@ display: block;
   padding-top: 20px;
 }
 .contacts-link {
-}
-.contacts-svg {
   width: 44px;
     height: 44px;
-    fill: var(--white);
-    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: block;
+    padding: 12px;
+     background-color: rgba(255, 255, 255, 0.1);
 }
+.contacts-link:hover {
+  background-color: var(--accent-color);
+}
+/* .contacts-link:hover , .contacts-link */
+.contacts-svg {
+ width: 20px;
+ height: 20px;
+    fill: var(--white);
+   
+}
+
 
