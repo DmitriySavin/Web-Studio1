@@ -400,6 +400,9 @@ margin-left: 0 auto;
     height: 92px;
     flex-basis: calc((100% - 150px) / 6);
 }
+.customers-item:hover {
+border-color: var(--accent-color);
+}
 .customers-icon  {
 margin-left: 64px;
 margin-right: 64px;
@@ -412,28 +415,40 @@ fill: var(--accent-color);
 }
 .ya-co {
   width: 41px;
-    height: 46px;
+    height: 100%;
+    display: block;
+      margin: 0 auto;
 }
 .icon-company-tag-line-here {
 width: 40px;
-  height: 51px;
+  height: 100%;
+    display: block;
+    margin: 0 auto;
 }
 .icon-company {
   width: 45px; 
-  height: 42px;
+  height: 100%;
+    display: block;
+    margin: 0 auto;
 }
 .icon-foster-peters {
   width: 84px;
-    height: 40px;
+    height: 100%;
+      display: block;
+      margin: 0 auto;
 }
 .icon-brand {
   width: 63px;
-  height: 47px;
+  height: 100%;
+    display: block;
+    margin: 0 auto;
 }
 .icon-company-tag-line {
   width: 94px;
-  height: 45px;
-}
+   height: 100%;
+    display: block;
+      margin: 0 auto; 
+    }
 /* Там уже портволио идет */
 .flex-header-portfolio {
   display: flex;
