@@ -630,6 +630,11 @@ display: block;
   height: 581px;
   background-color: var(--white);
 }
+.modal-desc {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 12px;
+}
 .modal-close {
   position: absolute;
   top: 8px;
@@ -644,6 +649,31 @@ display: block;
     letter-spacing: 0.03em;
     text-align: center;
     padding-top: 40px;
+}
+.modal-label {
+   font-family: var(--font-family);
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.01em;
+color: #757575;
+  display: flex;
+}
+.modal-input {
+border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 448px;
+  height: 40px;
+}
+.input-comment {
+    width: 448px;
+    height: 120px;
+}
+.input-comment::placeholder {
+  font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
 }
 
 
