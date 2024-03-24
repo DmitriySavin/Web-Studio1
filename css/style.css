@@ -635,12 +635,16 @@ display: block;
   margin-right: 40px;
   margin-top: 12px;
 }
+.modal-close-svg-link {
+   width: 30px;
+   height: 30px;
+}
 .modal-close {
   position: absolute;
   top: 8px;
   right: 8px;
-  background-color: transparent;
-  border: 0;
+border-radius: 50%;
+padding: 6px;
 }
 .modal-title {
   font-family: var(--font-family);
@@ -657,6 +661,7 @@ font-size: 12px;
 letter-spacing: 0.01em;
 color: #757575;
   display: flex;
+  margin-bottom: 5px;
 }
 .modal-input {
 border: 1px solid rgba(33, 33, 33, 0.2);
@@ -667,6 +672,8 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 .input-comment {
     width: 448px;
     height: 120px;
+    padding-left: 16px;
+    padding-bottom: 90px;
 }
 .input-comment::placeholder {
   font-family: var(--font-family);
@@ -674,6 +681,48 @@ border: 1px solid rgba(33, 33, 33, 0.2);
     font-size: 12px;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
+  display: block;
+  
+}
+.modal-info {
+  margin-bottom: 25px;
+}
+.agreement-label {
+  margin-left: 52px;
+}
+.checkbox {
+margin-right: 5px;
+}
+/* .agreement-desc {
+  font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #757575;
+} */
+.link-agreement {
+  text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #2196f3;
+    padding-left: 5px;
+}
+.save-data-btn {
+  width: 200px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+      background: #2196f3;
+      border: 0;
+      font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 187%;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #fff;
+            margin-top: 30px;
+              margin-left: 165px;
+              margin-right: 165px;
 }
 
 
