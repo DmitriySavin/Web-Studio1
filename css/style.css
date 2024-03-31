@@ -529,7 +529,9 @@ width: 40px;
       
 }
 /* футер */
-
+.footer-position {
+  position: relative;
+}
 .logo-logo-footer {
   background-color: var(--main-bg-color);
   padding-top: 60px;
@@ -611,6 +613,49 @@ display: block;
  height: 20px;
     fill: var(--white);
 }
+.newsletter {
+  width: 570px;
+    height: 86px;
+    left: 815px;
+    position: absolute;
+}
+.newsletter-title {
+  font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    min-width: 207px;
+    padding-bottom: 20px;
+}
+.newsletter-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+      background: rgba(33, 150, 243, 0);
+      margin-right: 12px;
+}
+.newsletter-btn {
+  border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+      background: #2196f3;
+      font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 187%;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #fff;
+}
+.newsletter-btn-svg {
+  width: 24px;
+  height: 24px;
+}
 .backdrop {
   position: fixed;
     top: 0;
@@ -619,6 +664,7 @@ display: block;
     right: 0;
     z-index: 1;
   background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0;
 }
 .modal {
   position: absolute;
@@ -644,23 +690,24 @@ display: block;
   position: relative;
 }
 .modal-close-svg {
-  border-radius: 50%;
-  border-color: rgba(0, 0, 0, 0.1);
-  
-  width: 18px;
-  height: 18px;
+fill: #000;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
+  width: 11px;
+    height: 11px;
 }
-.modal-close-svg-link {
-   width: 30px;
-   height: 30px;
-   
+.modal-close-svg:hover {
+    fill: #2196f3;
 }
 .modal-close {
+background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   position: absolute;
-  top: 8px;
+  top: 11px;
   right: 8px;
-border-radius: 50%;
-padding: 6px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
 
 }
 .modal-title {
