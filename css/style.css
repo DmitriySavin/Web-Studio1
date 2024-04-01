@@ -664,6 +664,8 @@ display: block;
         letter-spacing: 0.06em;
         text-align: center;
         color: #fff;
+        position: absolute;
+        border: none;
 }
 .newsletter-btn-svg {
   width: 24px;
@@ -811,5 +813,5 @@ margin-right: 5px;
               margin-left: 165px;
               margin-right: 165px;
 }
- */
+ 
 
