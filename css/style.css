@@ -101,15 +101,24 @@ a:active {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
+  position: relative;
 }
-.navigation-item::after, 
-.navigation-item:hover  {
+.navigation-link::after {
   content: '';
+  display: block;
     border-radius: 2px;
-    width: 48px,75px,67px;
+    width: 100%;
     height: 4px;
-    background: #2196f3;
-    
+    background-color: var(--accent-color);
+    position: absolute;
+    top: 44px;
+    opacity: 0;
+    transition: opacity 500ms ease, transform 500ms ease;
+    transform: scale(0);
+}
+.navigation-link:hover::after {
+  opacity: 1;
+  transform: scale(1);
 }
 .navigation-list {
   padding-left: 93px;
@@ -650,6 +659,7 @@ display: block;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
       background: rgba(33, 150, 243, 0);
       margin-right: 12px;
+          padding-left: 15px;
 }
 .newsletter-btn {
   border-radius: 4px;
@@ -671,7 +681,7 @@ display: block;
   width: 24px;
   height: 24px;
 }
-/* .backdrop {
+ .backdrop {
   position: fixed;
     top: 0;
     left: 0;
@@ -679,7 +689,7 @@ display: block;
     right: 0;
     z-index: 1;
   background-color: rgba(0, 0, 0, 0.2);
-  opacity: 0;
+  opacity: 1;
 }
 .modal {
   position: absolute;
@@ -747,6 +757,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   width: 448px;
   height: 40px;
+  padding-left: 35px;
 }
 .input-comment {
     width: 448px;
