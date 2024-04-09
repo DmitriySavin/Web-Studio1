@@ -689,8 +689,14 @@ display: block;
     right: 0;
     z-index: 1;
   background-color: rgba(0, 0, 0, 0.2);
-  opacity: 1;
+   /* visibility: hidden;
+  opacity: 0; */
 }
+/* .backdrop:hover,
+.backdrop:visited {
+  visibility: visible;
+  opacity: 1; 
+} */
 .modal {
   position: absolute;
   top: 50%;
