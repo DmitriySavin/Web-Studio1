@@ -535,6 +535,7 @@ width: 40px;
   flex-wrap: wrap;
   gap: 30px;
   padding-bottom: 94px;
+  
 }
 .project-list-card {
   padding-top: 20px;
@@ -545,11 +546,21 @@ width: 40px;
 }
 .projects-item {
   flex-basis: calc((100% - 60px) / 3);
+
 }
 .projects-item + .projects-item {
   padding-bottom: 30px;
-      
 }
+.projects-img {
+  
+}
+/* .overlay {
+   position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(33, 150, 243, 0.9);
+} */
+
 /* футер */
 .footer-position {
   position: relative;
