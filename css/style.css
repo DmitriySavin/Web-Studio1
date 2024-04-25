@@ -142,7 +142,7 @@ a:active {
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.28px;
-  min-width: 142px;
+  min-width: 161px;
 }
 .address-header-link:hover .addr-icon {
   fill: var(--accent-color);
@@ -401,8 +401,12 @@ font-family: var(--font-family);
   height: 20px;
       width: 20px;
 }
-.icon-item:hover  {
+.icon-item:hover {
   fill: var(--white);
+}
+.link-icon:hover {
+  background-color: var(--accent-color);
+  /* padding: 12px; */
 }
 .link-icon {
   width: 44px;
@@ -411,10 +415,7 @@ font-family: var(--font-family);
   display: block;
   padding: 12px;
 }
-.link-icon:hover {
-  background-color: var(--accent-color);
-  /* padding: 12px; */
-}
+
 .customers-section {
   width: 1170px;
     height: 184px;
@@ -451,8 +452,11 @@ margin-top: 23px;
 margin-bottom: 23px;
 fill: #AFB1B8;
 }
+.customers-icon:hover .customers-item{
+color: var(--accent-color);
+}
 .customers-icon:hover {
-fill: var(--accent-color);
+  fill: var(--accent-color);
 }
 .ya-co {
   width: 41px;
