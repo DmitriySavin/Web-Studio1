@@ -68,7 +68,7 @@ ul {
   display: flex;
 }
 .address-header-list {
-  padding-left: 344px;
+    margin-left: auto;
 }
 .address-header-item {
   display: flex;
@@ -77,6 +77,16 @@ ul {
 .address-header-item:hover {
   color: var(--accent-color);
   fill: var(--accent-color);
+}
+.address-header-link {
+  color: var(--add-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  min-width: 161px;
+  display: flex;
+  align-items: center;
 }
 .address-header-list + .address-header-list {
   margin-right: 50px;
@@ -134,15 +144,6 @@ a:active {
   width: 16px;
   height: 16px;
   margin-right: 10px;
-}
-
-.address-header-link {
-  color: var(--add-color);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0.28px;
-  min-width: 161px;
 }
 .address-header-link:hover .addr-icon {
   fill: var(--accent-color);
@@ -536,6 +537,7 @@ width: 40px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.48px;
+  padding-bottom: 20px;
 }
 .flex-project-list {
   display: flex;
@@ -569,9 +571,6 @@ width: 40px;
 } */
 
 /* футер */
-.footer-position {
-  position: relative;
-}
 .logo-logo-footer {
   background-color: var(--main-bg-color);
   padding-top: 60px;
@@ -581,9 +580,7 @@ width: 40px;
 }
 .footer-position {
   display: flex;
-}
-.footer-socials{
-  padding-left: 215px;
+  justify-content: space-between;
 }
 .footer-item {
   margin-top: 9px;
@@ -621,7 +618,7 @@ display: block;
   width: 206px;
     padding-left: 70px;
     padding-right: 70px;
-        margin-right: 878px;
+    margin-right: auto;
 }
 .contacts-desc {
   font-family: var(--font-family);
@@ -656,8 +653,6 @@ display: block;
 .newsletter {
   width: 570px;
     height: 86px;
-    left: 815px;
-    position: absolute;
 }
 .newsletter-title {
   font-family: var(--font-family);

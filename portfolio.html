@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfulio</title>
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpulicy="no-referrer"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -216,7 +223,8 @@
     </main>
     <footer class="logo-logo-footer">
       <div class="container">
-         <div class="footer-socials">
+       <div class="footer-position">
+    <div class="footer-socials">
           <a href="index.html"
             ><span class="logo-footer-title">
               <span class="accent-logo">Web</span>Studio
@@ -244,6 +252,50 @@
             </ul>
           </address>
         </div>
+         <div class="our-contacts">
+        <p class="contacts-desc">Приєднуйтесь</p>
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a href="#" class="contacts-link">
+              <svg class="contacts-svg">
+                <use href="./sprite/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts-item">
+            <a href="#" class="contacts-link">
+              <svg class="contacts-svg">
+                <use href="./sprite/symbol-defs.svg#icon-Group"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts-item">
+            <a href="#" class="contacts-link">
+              <svg class="contacts-svg">
+                <use href="./sprite/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts-item">
+            <a href="#" class="contacts-link">
+              <svg class="contacts-svg">
+                <use href="./sprite/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="newsletter">
+          <p class="newsletter-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
+          <label for="email" class="newsletter-label"></label>
+          <input type="text" id="email" class="newsletter-input" placeholder="E-mail">
+          <button class="newsletter-btn">Підписатися
+            <svg class="newsletter-btn-svg">
+            <use href="./sprite/symbol-defs-btn.svg#newsletter-btn-icon"></use>
+          </svg>
+          </button>
+        </div>
+</div>
       </div>
       
     </footer>
