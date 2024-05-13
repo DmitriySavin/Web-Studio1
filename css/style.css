@@ -673,6 +673,7 @@ display: block;
       background: rgba(33, 150, 243, 0);
       margin-right: 12px;
           padding-left: 15px;
+              color: white;
 }
 .newsletter-btn {
   border-radius: 4px;
