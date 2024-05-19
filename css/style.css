@@ -401,12 +401,12 @@ font-family: var(--font-family);
   height: 20px;
       width: 20px;
 }
-.icon-item:hover {
-  fill: var(--white);
-}
-.link-icon:hover {
+.link-icon:hover,
+.link-icon:focus {
   background-color: var(--accent-color);
-  /* padding: 12px; */
+}
+.link-icon:hover .icon-item {
+  fill: var(--white);
 }
 .link-icon {
   width: 44px;
@@ -452,11 +452,9 @@ margin-top: 23px;
 margin-bottom: 23px;
 fill: #AFB1B8;
 }
-.customers-icon:hover .customers-item{
+.customers-link:hover .customers-icon{
 color: var(--accent-color);
-}
-.customers-icon:hover {
-  fill: var(--accent-color);
+fill: var(--accent-color);
 }
 .ya-co {
   width: 41px;
