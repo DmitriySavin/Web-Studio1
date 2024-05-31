@@ -200,6 +200,23 @@ a:active {
   padding: 10px 32px;
   border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    
+    animation-name: button;
+    animation: button 5000ms linear infinite 1000ms;
+}
+@keyframes button {
+  0% {
+    background: #2196f3;
+    color: #fff;
+  }
+  50% {
+  background: var(--white);
+  color: #2196f3;
+  }
+  100% {
+    background: #2196f3;
+      color: #fff;
+  }
 }
 /* увага до деталей */
 .opportunities {
