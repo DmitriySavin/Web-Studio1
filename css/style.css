@@ -164,12 +164,6 @@ a:active {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-/* .flex-hero-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-} */
 .hero-section-title {
   color: var(--white);
   text-align: center;
@@ -181,9 +175,6 @@ a:active {
   padding-bottom: 40px;
   width: 696px;
   margin: 0 auto;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 .hero-section-button {
   color: #fff;
@@ -574,9 +565,6 @@ width: 40px;
 }
 .projects-item + .projects-item {
   padding-bottom: 30px;
-}
-.projects-img {
-  
 }
 /* .overlay {
    position: absolute;
