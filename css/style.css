@@ -537,7 +537,6 @@ width: 40px;
   line-height: 2;
   letter-spacing: 1.08px;
 }
-
 .projects-text {
   color: var(--add-color);
   font-size: 16px;
@@ -550,7 +549,6 @@ width: 40px;
   flex-wrap: wrap;
   gap: 30px;
   padding-bottom: 94px;
-  
 }
 .project-list-card {
   padding-top: 20px;
@@ -561,17 +559,17 @@ width: 40px;
 }
 .projects-item {
   flex-basis: calc((100% - 60px) / 3);
-
 }
 .projects-item + .projects-item {
   padding-bottom: 30px;
 }
-/* .overlay {
-   position: absolute;
+.overlay {
+  position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(33, 150, 243, 0.9);
-} */
+ background-color: background: rgba(33, 150, 243, 0.9);;
+}
+
 
 /* футер */
 .logo-logo-footer {
